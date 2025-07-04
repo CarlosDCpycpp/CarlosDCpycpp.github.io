@@ -4,15 +4,26 @@
 
 
 <head>
-    <!-- <meta charset="UTF-8"> -->
+
+    <meta charset="UTF-8">
     <title>HTML!</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="pokemon">
+    <meta name="description" content="My favorite pokemon.">
 
     <style>
 
-        img {
+        img.ppic {
         width: 100px;
         border-radius: 50px;
-        float: left;
+        float: right;
+        margin-right: 10px;
+        }
+
+        img.pkmn {
+        width: 200px;
+        float: bottom;
         margin-right: 10px;
         }
 
@@ -20,14 +31,37 @@
         font-weight: bold;
         }
 
+        p.txt {
+        color: grey;
+        }
+
+        em.enf {
+        color: red;
+        }
+
     </style>
+
 </head>
 
 
 <body>
-    <img src="images/pikachu.jpeg" alt="Hello">
-    <p class="username" >@CDGdC</p>
-    <p>Hello, I like Pokemon!</p>
+    <h1>CDGdC</h1>
+
+    <h2 id="my_fav_pkmn"><strong> Intro</strong></h2>
+    <p>    Hello, I <em>love</em> Pokemon!</p>
+
+    <h2><strong>My Favourite Pokemon</strong></h2>
+
+    <p> Porygon-Z is my favourite Pokemon,<br>
+        it's a normal type, it evolves from Porygon2,<br>
+        which, itself, evolves from Porygon.<br>
+        Here's a picture of it.</p>
+
+    <img class="pkmn" src="images/porygon_z.png" alt="Porygon-Z [image]">
+
+
+    <a href="PIKACHU!.html"><br><br><br>PIKACHU!</a><br><a href="lorem.html" target="_blank">Lorem Ipsum</a>
+
 </body>
 
 
